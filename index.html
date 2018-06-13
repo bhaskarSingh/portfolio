@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Sets the character encoding for the HTML document to Unicode -->
+    <meta charset="UTF-8">
+    <!-- Allows website to render properly on mobile and tablet devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Allows website to render properly on older version of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <!-- JQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript Materialize Framework-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified CSS Materialize Framework-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript file -->
+    <script src="js/script.js" ></script>
+    <title>Portfolio</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="transparent z-depth-0">
+    <div class="nav-wrapper">
+      <div class="row">
+        <div class="col s12">
+          <!-- Logo -->
+          <a class="brand-logo black-text">Portfolio</span></a>
+          <!-- Hamburger icon (Hide on large devices) -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+          <!-- Hide the content on small and mid devices and show on large devices on the nav bar -->
+          <ul class="right hide-on-med-and-down">
+              <li><a href="#" >About Me</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Hamburger sideNav Content (Hide on large devices)-->
+  <!-- todo: Implement this later -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#" >About Me</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact Me</a></li>
+  </ul>
+
+  <!-- Profile content -->
+  <header>
+    <div class="container">
+        <div class="row">
+          <!-- Profile image -->
+          <div class="profile-image col s6 offset-s3 m6 center-align">
+                <img class="circle responsive-img" src="https://placeimg.com/360/360/any/people" alt="Profile image">
+          </div>
+          <div class="col s12 m6">
+            <h1 class="col s12 m6 blue-text name center">Bhaskar Singh</h1>
+            <h2 class="col s12 m6 blue-text title center">Web developer</h2>
+            <!-- Social media links -->
+            <p class="col s12 m6 center">
+                <a href="https://plus.google.com/u/0/+BhaskarSingh" target="_blank" ><img src="images/google-plus.svg" alt="google-plus logo" class="social-media-logo-size" ></a>
+                <a href="https://www.linkedin.com/in/bhaskar-singh-55a535b9/" target="_blank" ><img src="images/linkedin.svg" alt="linkden logo" class="social-media-logo-size" ></a>
+                <a href="https://github.com/bhaskarSingh" target="_blank" ><img src="images/github-square.svg" alt="github logo" class="social-media-logo-size" ></a>
+                <a href="https://twitter.com/Bhaskar43089879" target="_blank" ><img src="images/twitter-square.svg" alt="twitter logo" class="social-media-logo-size" ></a>
+            </p>
+          </div>
+        </div>
+    </div>
+  </header>
+  
+  <!-- Contains About me, skills and list of projects content-->
+  <main>
+  <div id='nav-bg'></div>
+  <!-- About Me and programming skills content -->
+  <section class="container">
+    <h2 class="center blue-text">About me</h2>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="card center">
+          <span class="card-title">About Me</span>
+        <div class="card-content">
+          <p>
+            I am a first year undergrauate student pursuing B.com from moti lal
+            nehru college, delhi university. Being a tech enthusiast love to stay 
+            up to date with the lastest tech news and a wanna be future web developer
+            and when I am not coding love to watch anime and listen to music and learn
+            japanese. 
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l6">
+        <div class="card center">
+          <span class="card-title">Skills</span>
+          <div class="card-content">
+            <div>
+              Git
+              <div class="progress">
+                <div class="determinate blue" style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              JavaScript
+              <div class="progress">
+                <div class="determinate blue" style="width: 60%"></div>
+              </div>
+            </div>
+            <div>
+              Html and Css
+              <div class="progress">
+                <div class="determinate blue" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- List of projects -->
+  <section>
+    <h2 class="center blue-text">Projects</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://placeimg.com/399/300/arch">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Animal Trading card project</span>
+            <p>In this project I Re-created the mock-design card with my own customization.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://codepen.io/BhaskarSingh/pen/EQLEEj?editors=0110" target="_blank"><i class="material-icons">code</i>codepen link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://placeimg.com/399/301/arch">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Mock to article project</span>
+            <p>In this project I Re-created the mock-website exactly according to the mock.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://codepen.io/BhaskarSingh/pen/RQjggv?editors=1000" target="_blank" ><i class="material-icons">code</i>codepen link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://placeimg.com/399/302/arch">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Pixel Art project</span>
+            <p>In this project I created a single-page web app that allows users to draw pixel
+                art on a customizable canvas</p>
+          </div>
+          <div class="card-action">
+            <a href="https://codepen.io/BhaskarSingh/pen/XEKWmy?editors=0010" target="_blank"><i class="material-icons">code</i>codepen link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/FP.svg">
+          </div>
+          <div class="divider"></div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">List of future projects<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Future Projects<i class="material-icons right">close</i></span>
+            <ul>
+                <li>Memory Game</li>
+                <li>Classic Arcade Game Clone</li>
+                <li>Feed Reader Testing</li>
+                <li>Restaurant Review App - Stage 1</li>
+                <li>My Reads - A Book Tracking App</li>
+                <li>Neighborhood Map (React)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Contact information -->
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Got a question? feel free to reach out to me at:</h5>
+          <p class="grey-text text-lighten-4">allstartbhaskarkumar@gmail.com</p>
+        </div>
+        <!-- Social media links -->
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <a href="https://plus.google.com/u/0/+BhaskarSingh" target="_blank" ><img src="images/google-plus.svg" alt="google-plus logo" class="social-media-logo-size" ></a>
+            <a href="https://www.linkedin.com/in/bhaskar-singh-55a535b9/" target="_blank" ><img src="images/linkedin.svg" alt="linkden logo" class="social-media-logo-size" ></a>
+            <a href="https://github.com/bhaskarSingh" target="_blank" ><img src="images/github-square.svg" alt="github logo" class="social-media-logo-size" ></a>
+            <a href="https://twitter.com/Bhaskar43089879" target="_blank" ><img src="images/twitter-square.svg" alt="twitter logo" class="social-media-logo-size" ></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <!-- Author name -->
+      <div class="container">
+        Made By Bhaskar Singh
+        <!-- todo: add site github link here -->
+        <a class="grey-text text-lighten-4 right" href="#!"> <i class="material-icons">code</i> Github link</a> <!-- Site github link -->
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+</html>

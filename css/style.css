@@ -1,0 +1,97 @@
+body {
+    background: #eee;
+}
+
+    /* Z-indexs */
+
+nav {
+    z-index: 4;
+}
+header {
+    z-index: 3;
+}
+#nav-bg {
+    z-index: 2;
+}
+main {
+    z-index: 1;
+}
+.card .card-reveal {
+    z-index: 1;
+}
+  
+    /* Header and navBar */
+nav {
+    position: fixed;
+    top: 0;
+}
+header {
+    position: relative;
+    background-color: white;
+    padding: 1em;
+    height: 70vh;
+}
+header:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% 50%;
+    opacity: 0.4;
+}
+#nav-bg {
+    background: #2196F3;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30vh;
+}
+header p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+
+.social-media-logo-size {
+    width: 38px;
+    height: 38px;
+} 
+
+.name {
+    font-size: 2em;
+    text-align: center;
+    margin: 0%
+}
+
+.title {
+    font-size: 1.3em;
+    text-align: center;
+    color: #424242;
+    margin: 0%;
+}
+
+.profile-image {
+    margin-top: 14vh;
+}
+
+.card .card-content {
+    padding: 12px;
+}
+
+a .material-icons {
+    font-size: 12px;
+}
