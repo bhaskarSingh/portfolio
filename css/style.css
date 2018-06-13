@@ -114,7 +114,7 @@ a .material-icons {
     }
 }
 
-@media screen and (min-width: 60px){
+@media screen and (min-width: 600px){
     .name {
         margin-top: 25vh;
     }
