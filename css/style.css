@@ -90,6 +90,11 @@ header p {
 
 .card .card-content {
     padding: 12px;
+    font-size: 1.3em;
+}
+
+.card .card-title {
+    font-weight: 500;
 }
 
 a .material-icons {
