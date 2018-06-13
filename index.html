@@ -68,6 +68,7 @@
             <!-- Developer title -->
             <h2 class="col s12 m12 blue-text title center">Web developer</h2>
             <!-- Social media links -->
+            <!-- todo: make the links clickable -->
             <p class="col s12 m12 center">
                 <a href="https://plus.google.com/u/0/+BhaskarSingh" target="_blank" ><img src="images/google-plus.svg" alt="google-plus logo" class="social-media-logo-size" ></a>
                 <a href="https://www.linkedin.com/in/bhaskar-singh-55a535b9/" target="_blank" ><img src="images/linkedin.svg" alt="linkden logo" class="social-media-logo-size" ></a>
@@ -78,6 +79,7 @@
         </div>
     </div>
   </header>
+  <!-- Makes the navBar fixed,change background to blue and text to white on scroll to this element -->
   <div id='nav-bg'></div>
   <!-- Contains About me, skills and list of projects content-->
   <main>
@@ -129,11 +131,13 @@
   <section id="projects-link" class="scrollspy" >
     <h2 class="center blue-text">Projects</h2>
     <div class="row">
+      <!-- Animal card project -->
       <div class="first-card col s12 m6 l4">
         <div class="card">
           <div class="card-image">
             <picture>
-              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/fox/fox@1x.jpg 1x, images/fox/fox@2x.jpg 2x">
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/fox/fox@1x.jpg">
+              <source media="(min-width: 1001px)" srcset="images/fox/fox@2x.jpg">
               <img src="images/fox/fox@medium.jpg" alt="Red-fox">
             </picture>
           </div>
@@ -148,10 +152,12 @@
         </div>
       </div>
       <div class="col s12 m6 l4">
+        <!-- Mock to article project -->
         <div class="card">
           <div class="card-image">
             <picture>
-              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/mock-to-article/mock-to-article@1x.jpg 1x, images/mock-to-article/mock-to-article@2x.jpg 2x">
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/mock-to-article/mock-to-article@1x.jpg">
+              <source media="(min-width: 1001px)" srcset="images/mock-to-article/mock-to-article@2x.jpg">
               <img src="images/mock-to-article/mock-to-article@medium.jpg" alt="mock-to-article humans vs machines">
             </picture>
           </div>
@@ -165,10 +171,12 @@
         </div>
       </div>
       <div class="col s12 m6 l4">
+        <!-- Pixel art project -->
         <div class="card">
           <div class="card-image">
             <picture>
-              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/pixel-art-project/pixel-art-project@1x.jpg 1x, images/pixel-art-project/pixel-art-project@2x.jpg 2x">
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/pixel-art-project/pixel-art-project@1x.jpg">
+              <source media="(min-width: 1001px)" srcset=" images/pixel-art-project/pixel-art-project@2x.jpg">
               <img src="images/pixel-art-project/pixel-art-project@medium.jpg" alt="pixel-art-project single page web app">
             </picture>
           </div>
@@ -183,6 +191,7 @@
         </div>
       </div>
       <div class="col s12 m6 l4">
+        <!-- List of future projects -->
         <div class="card">
           <div class="card-image">
             <img src="images/FP.svg">
