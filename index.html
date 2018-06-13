@@ -55,10 +55,17 @@
         <div class="row">
           <!-- Profile image -->
           <div class="profile-image col s6 offset-s3 m6 center-align">
-                <img class="circle responsive-img" src="https://placeimg.com/360/360/any/people" alt="Profile image">
+            <picture>
+              <source media="(max-width: 550px)" srcset="images/me/me@small.jpg">
+              <source media="(min-width: 551px) and (max-width: 1000px)" srcset="images/me/me@medium.jpg">
+              <source media="(min-width: 1001px)" srcset="images/me/me@1x.jpg 1x, images/me/me@2x.jpg 2x">
+              <img class="circle responsive-img" src="images/me/me@medium.jpg" alt="Profile image">
+            </picture>
           </div>
           <div class="col s12 m6">
+            <!-- Developer name -->
             <h1 class="col s12 m12 blue-text name center">Bhaskar Singh</h1>
+            <!-- Developer title -->
             <h2 class="col s12 m12 blue-text title center">Web developer</h2>
             <!-- Social media links -->
             <p class="col s12 m12 center">
@@ -125,7 +132,10 @@
       <div class="first-card col s12 m6 l4">
         <div class="card">
           <div class="card-image">
-            <img src="https://placeimg.com/399/300/arch">
+            <picture>
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/fox/fox@1x.jpg 1x, images/fox/fox@2x.jpg 2x">
+              <img src="images/fox/fox@medium.jpg" alt="Red-fox">
+            </picture>
           </div>
           <div class="card-content">
             <span class="card-title">Animal Trading card project</span>
@@ -140,7 +150,10 @@
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
-            <img src="https://placeimg.com/399/301/arch">
+            <picture>
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/mock-to-article/mock-to-article@1x.jpg 1x, images/mock-to-article/mock-to-article@2x.jpg 2x">
+              <img src="images/mock-to-article/mock-to-article@medium.jpg" alt="mock-to-article humans vs machines">
+            </picture>
           </div>
           <div class="card-content">
             <span class="card-title">Mock to article project</span>
@@ -154,7 +167,10 @@
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
-            <img src="https://placeimg.com/399/302/arch">
+            <picture>
+              <source media="(min-width: 425px) and (max-width: 1000px)" srcset="images/pixel-art-project/pixel-art-project@1x.jpg 1x, images/pixel-art-project/pixel-art-project@2x.jpg 2x">
+              <img src="images/pixel-art-project/pixel-art-project@medium.jpg" alt="pixel-art-project single page web app">
+            </picture>
           </div>
           <div class="card-content">
             <span class="card-title">Pixel Art project</span>
