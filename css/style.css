@@ -102,6 +102,10 @@ a .material-icons {
     font-size: 12px;
 }
 
+.collection-item {
+    font-size: 1.2em;
+}
+
 @media screen and (min-width: 680px){
     .name {
         margin-top: 25vh;
