@@ -86,6 +86,7 @@ header p {
 
 .profile-image {
     margin-top: 14vh;
+    max-width: 50vh;
 }
 
 .card .card-content {
@@ -99,4 +100,24 @@ header p {
 
 a .material-icons {
     font-size: 12px;
+}
+
+@media screen and (min-width: 680px){
+    .name {
+        margin-top: 25vh;
+    }
+    .title {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    main {
+        max-width: 1000px;
+        margin: 0 auto; 
+    }
+
+    .card .card-content {
+        font-size: 1.1em;
+    }
 }
