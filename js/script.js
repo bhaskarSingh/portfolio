@@ -15,8 +15,10 @@ $(document).ready(function(){
 
         if (calc > '1') {
             header.css({ 'opacity': 1 });
+            $('nav .brand-logo, nav ul a, nav a').css({color:'black'});
         } else if ( calc < '0' ) {
             header.css({ 'opacity': 0 });
+            $('nav .brand-logo, nav ul a, nav a').css({color:'white'});
         }
 
     });
