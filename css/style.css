@@ -71,6 +71,7 @@ header p {
     height: 38px;
 } 
 
+    /* Profile  */
 .name {
     font-size: 2em;
     text-align: center;
@@ -89,6 +90,7 @@ header p {
     max-width: 50vh;
 }
 
+    /* Card */
 .card .card-content {
     padding: 12px;
     font-size: 1.3em;
