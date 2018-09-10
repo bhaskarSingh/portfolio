@@ -1,7 +1,7 @@
 const data = [
     {
         name: 'Memory Card game',
-        src: 'images/matching-game.jpg',
+        src: '../images/matchinggame.jpg',
         info: 'In this project I created a single-page web app that allows users play memory card game',
         link: 'https://bhaskarsingh.github.io/memory-game/',
         responsive: true
@@ -36,21 +36,19 @@ const data = [
 
 const cards = data.map( (item) => {
     return(
-        `<div class="col s12 m6 l4">
-            <div class="card">
-            <div class="card-image">
-                <picture>
-                <img src="${item.src}" alt="${item.name}">
-                </picture>
-            </div>
-            <div class="card-content">
-                <span class="card-title">${item.name}</span>
-                <p>${item.info}</p>
-            </div>
-            <div class="card-action">
-                <a href="${item.link}" target="_blank"><i class="material-icons">code</i>${item.name}</a>
-            </div>
-            </div>
+        `<div class="card">
+        <div class="card-image">
+            <picture>
+            <img src="${item.src}" alt="${item.name}">
+            </picture>
+        </div>
+        <div class="card-content">
+            <span class="card-title">${item.name}</span>
+            <p>${item.info}</p>
+        </div>
+        <div class="card-action">
+            <a href="${item.link}" target="_blank"><i class="material-icons">code</i>${item.name}</a>
+        </div>
         </div>`
     );
 });
