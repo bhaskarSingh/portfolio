@@ -1,7 +1,7 @@
 const data = [
     {
         name: 'Memory Card game',
-        src: '../images/matchinggame.jpg',
+        src: 'images/matchinggame.jpg',
         info: 'In this project I created a single-page web app that allows users play memory card game',
         link: 'https://bhaskarsingh.github.io/memory-game/',
         responsive: true
